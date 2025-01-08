@@ -13,9 +13,13 @@ header {
     width: 100%;
     z-index: 1000;
     font-family: 'Inter', sans-serif;
-    border-bottom: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220) ; 
     width: calc(100% - 1.1rem);     
 }
+
+
+/*  */
+
 
 header .logo {
     font-size: 0rem;
