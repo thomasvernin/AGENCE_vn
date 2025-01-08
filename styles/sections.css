@@ -1,0 +1,30 @@
+/* sections.css */
+section {
+    margin-bottom: 40px;
+    padding: 70px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    margin-left: 170px;
+    font-size: 15px;
+}
+
+
+@media (max-width: 1024px) {
+    section {
+        padding: 15px;
+    }
+
+    section h2 {
+        text-align: center; 
+    }
+
+    section p {
+        text-align: left;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agence Digitale</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/themes.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img id="logo" src="Images/logosite1.jpeg" alt="Logo de l'Agence Digitale" />
+    </div>    
+    <nav>
+      <ul id="menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li class="centered"><a href="#blog">Blog</a></li>
+
+    <button id="theme-toggle-header" class="theme-toggle">
+      <div class="icon-container">
+        <span id="icon-moon" class="bx bx-moon"></span>
+        <span id="icon-sun" class="bx bx-sun selected-icon"></span> 
+      </div>
+    </button>
+        <li><a href="#contact" class="button-link">Contact</a></li>
+        <li><a href="#devis" class="button-link2">Devis Gratuit</a></li>
+
+        <li><p class="hide-theme">Thèmes</p></li>
+
+      </ul>
+      
+      <div id="hamburger" class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Nos Services</h2>
+      <p>Nous offrons des services de développement web, marketing digital, etc.</p>
+    </section>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Nous sommes une agence digitale avec une expertise dans le développement et la stratégie digitale.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Agence Digitale</p>
+      <button id="theme-toggle-footer" class="theme-toggle">
+        <div class="icon-container">
+          <span id="icon-moon-footer" class="bx bx-moon"></span>
+          <span id="icon-sun-footer" class="bx bx-sun selected-icon"></span> 
+        </div>
+      </button>           
+    </div>
+  </footer>
+
+  <script src="scripts/header.js"></script>
+  <script src="scripts/menu_hamb.js"></script>
+  <script src="scripts/themes.js"></script>
+
+</body>
+</html>
+
+

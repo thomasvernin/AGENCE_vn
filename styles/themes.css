@@ -1,0 +1,274 @@
+/*themes.css*/
+
+:root {
+    --background-color : white ;  
+    --logo-color : white ; 
+    --text-color : black ; 
+    --text-grey : #7f7f7f ;
+    --text-grey-hover : black ; 
+    --themes-toogle : #505050 ;
+    --hamberger-spann : #7f7f7f ;
+    --trait-color : rgb(220, 220, 220) ;
+
+    --btn1-background-color : white ;
+    --btn1-background-color-hover : white ;  
+    
+    --btn2-background-color : black ;
+
+}
+
+body.dark-mode {
+    --background-color : black ; 
+    --logo-color : black ; 
+    --text-color : white ;
+    --text-grey : #7f7f7f ;
+    --text-grey-hover : rgb(255, 255, 255) ; 
+    --themes-toogle : white ;
+    --hamberger-spann : #cccccc;
+    --trait-color : rgb(46, 46, 46) ; 
+
+    --btn1-background-color : black ; 
+    --btn1-background-color-hover : #1c1c1c ;
+
+    --btn2-background-color : rgb(241, 241, 241) ;
+    --btn2-background-color-hover : rgb(207, 207, 207) ;
+}
+
+
+
+
+
+/* Paramètres globaux */
+body {
+    background-color: white;
+    color: #090909;
+    font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Arrière-plan de l'en-tête et du pied de page */
+header, footer {
+    background-color: #ffffff7e;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Styles du logo */
+header .logo {
+    color: #000;
+}
+
+body.dark-mode header .logo {
+    color: #fff;
+}
+
+/* Couleur du texte pour les liens et le bouton de changement de thème */
+header nav ul li a,
+footer .theme-toggle {
+    color: #000000;
+}
+
+body.dark-mode header nav ul li a,
+body.dark-mode footer .theme-toggle {
+    color: #fff;
+}
+
+/* Couleur des liens dans la barre de navigation */
+header nav ul li a {
+    color: #7f7f7f;
+}
+
+body.dark-mode header nav ul li a {
+    color: #7f7f7f;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+body.dark-mode header nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Styles du pied de page */
+footer {
+    color: #000;
+}
+
+body.dark-mode footer {
+    color: #7f7f7f;
+}
+
+/* Styles du bouton de changement de thème */
+body.dark-mode .theme-toggle {
+    color: #fff;
+}
+
+body .theme-toggle {
+    color: #505050;
+}
+
+/* Styles du menu hamburger */
+header .hamburger span {
+    background-color: #7f7f7f;
+}
+
+body.dark-mode header .hamburger span {
+    background-color: #cccccc;
+}
+
+body.dark-mode header {
+    border-bottom: 1px solid rgb(46, 46, 46);
+} 
+
+header .hamburger { 
+    border-color: rgb(220, 220, 220);
+}
+
+body.dark-mode header .hamburger { 
+    border-color: rgb(63, 63, 63);
+}
+
+
+
+
+/* Styles des boutons dans la barre de navigation */
+header nav ul li a.button-link2 {
+    background-color: black;
+    color: #ececec;
+}
+
+body.dark-mode header nav ul li a.button-link2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(46, 46, 46);
+}
+
+
+
+
+
+header nav ul li a.button-link {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+body.dark-mode header nav ul li a.button-link {
+    background-color: #000000;
+    color: #c9c8c8;
+    border: 1px solid rgb(46, 46, 46);
+}
+
+header nav ul li a.button-link:hover {
+    background-color: rgb(255, 255, 255); 
+}
+
+body.dark-mode header nav ul li a.button-link:hover {
+    background-color: #1c1c1c;
+}
+
+body.dark-mode a.button-link:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* Couleurs bordures thèmes */
+
+.icon-container {
+    border-color: rgb(220, 220, 220);
+}
+
+body.dark-mode .icon-container {
+    border-color: rgb(46, 46, 46);
+}
+
+/* Couleurs des icônes de changement de thème */
+
+body .theme-toggle .selected-icon {
+    color: #000;
+    border-color: rgb(220, 220, 220);
+}
+
+body.dark-mode .theme-toggle .selected-icon {
+    color: #fff;
+    
+}
+
+body.dark-mode .theme-toggle .selected-icon {
+    background-color: #0f0f0f;
+}
+
+body .theme-toggle span:not(.selected-icon) {
+    color: #7d7d7d;
+}
+
+body .theme-toggle span:not(.selected-icon):hover {
+    color: black;
+}
+
+/* Bordure et effets au survol des icônes de changement de thème */
+body .theme-toggle span {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+body.dark-mode .theme-toggle span:not(.selected-icon) {
+    color: #7f7f7f ;
+}
+
+body .theme-toggle #icon-moon:hover {
+    background-color: rgba(36, 36, 36, 0.2); 
+}
+
+body.dark-mode .icon-container #icon-sun-footer:hover {
+    color: white !important;
+}
+
+body.dark-mode .icon-container #icon-moon-footer {
+    color: white !important; 
+}
+
+body.dark-mode .theme-toggle .selected-icon {
+    border: 1px solid rgb(64, 64, 64);
+}
+
+
+
+@media (max-width: 1024px) {
+    header nav ul {
+        background-color: white;
+        border-radius: 8px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body.dark-mode header nav ul {
+        background-color: #000000;
+        border-radius: 8px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
