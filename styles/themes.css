@@ -211,7 +211,7 @@ body.dark-mode .theme-toggle .selected-icon {
 
 @media (max-width: 1024px) {
     header nav ul {
-        background-color: white;
+        background-color: var(--background-color);
         border-radius: 8px;
         width: 100%;
         margin: 0;
@@ -220,7 +220,7 @@ body.dark-mode .theme-toggle .selected-icon {
     }
 
     body.dark-mode header nav ul {
-        background-color: #000000;
+        background-color: var(--background-color);
         border-radius: 8px;
         width: 100%;
         margin: 0;
