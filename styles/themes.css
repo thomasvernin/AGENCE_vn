@@ -3,12 +3,13 @@
 :root {
     --background-color : white ; 
     --background-header-color : rgba(255, 255, 255, 0.692) ;  
-    --logo-color : white ; 
+    --text-btn2-color : white ; 
     --text-color : black ; 
     --text-grey : #7f7f7f ;
     --text-grey-hover : black ; 
     --themes-toogle : #505050 ;
     --hamberger-spann : #7f7f7f ;
+    --icone-color-grey : #7f7f7f ;
     --trait-color : rgb(220, 220, 220) ;
     --btn1-background-color : white ;
     --btn1-background-color-hover : rgb(193, 193, 193) ;  
@@ -20,12 +21,13 @@
 body.dark-mode {
     --background-color : black ;
     --background-header-color : rgba(0, 0, 0, 0.692) ; 
-    --logo-color : black ; 
+    --text-btn2-color : black ; 
     --text-color : white ;
     --text-grey : #6b6b6b ;
     --text-grey-hover : rgb(255, 255, 255) ; 
     --themes-toogle : white ;
     --hamberger-spann : #cccccc;
+    --icone-color-grey : #7f7f7f ;
     --trait-color : rgb(29, 29, 29) ; 
     --btn1-background-color : rgb(10, 10, 10) ; 
     --btn1-background-color-hover : #1c1c1c ;
@@ -80,17 +82,12 @@ body.dark-mode footer {
     color: var(--text-color);
 }
 
-
-
-
-
-/* Styles du menu hamburger */
 header .hamburger span {
-    background-color: #7f7f7f;
+    background-color: var(--trait-color);
 }
 
 body.dark-mode header .hamburger span {
-    background-color: #cccccc;
+    background-color: var(--trait-color);
 }
 
 body.dark-mode header {
@@ -98,20 +95,16 @@ body.dark-mode header {
 } 
 
 header .hamburger { 
-    border-color: rgb(220, 220, 220);
+    border-color: var(--trait-color);
 }
 
 body.dark-mode header .hamburger { 
-    border-color: rgb(63, 63, 63);
+    border-color: var(--trait-color);
 }
 
-
-
-
-/* Styles des boutons dans la barre de navigation */
 header nav ul li a.button-link2 {
-    background-color: black;
-    color: #ececec;
+    background-color: var(--btn2-background-color);
+    color: var(--text-btn2-color);
 }
 
 header nav ul li a.button-link2:hover {
