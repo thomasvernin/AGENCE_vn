@@ -45,7 +45,7 @@ header nav ul {
 } 
 
 header nav ul li {
-    margin-left: 0.7rem;
+    margin-left: 1rem;
 }
 
 header nav ul li a {
@@ -54,7 +54,7 @@ header nav ul li a {
 }
 
 header nav ul .centered {
-    margin-right: 30em;
+    margin-right: 3rem;
 }   
 
 header nav ul li a.button-link {
@@ -71,11 +71,7 @@ header nav ul li a.button-link2 {
     text-align: center;
     transition: background-color 0.3s ease;
     font-size: 15px;
-    margin-right: 0.5rem;
-}
-
-header nav ul li a.button-link2:hover {
-    
+    margin-right: -1rem;
 }
 
 header .hamburger {
@@ -107,6 +103,8 @@ header .theme-toggle {
     align-self: center; 
 }
 
+
+/*
 @media (max-width: 2100px) {
     header nav ul .centered {
         justify-content: center;
@@ -126,7 +124,8 @@ header .theme-toggle {
         justify-content: center;
       margin-right: 10em;
     } 
-}
+} */
+
 
 @media (min-width: 1025px) {
     header .theme-toggle {
