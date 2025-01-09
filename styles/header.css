@@ -208,12 +208,12 @@ header .theme-toggle {
     }
 
     header .hamburger.active span:nth-child(1) {
-        transform: rotate(45deg) translate(4px, 2px);
+        transform: rotate(45deg) translate(3.65px, 2px);
         margin-right: 0.2rem;
     }
 
     header .hamburger.active span:nth-child(2) {
-        transform: rotate(-45deg) translate(4px, -2px);
+        transform: rotate(-45deg) translate(3.65px, -2px);
         margin-right: 0.2rem;
     }
 
