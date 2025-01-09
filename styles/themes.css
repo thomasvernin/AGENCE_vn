@@ -72,7 +72,6 @@ body.dark-mode header nav ul li a:hover {
     color: var(--text-grey-hover);
 }
 
-/* Styles du pied de page */
 footer {
     color: var(--text-color);
 }
@@ -81,14 +80,9 @@ body.dark-mode footer {
     color: var(--text-color);
 }
 
-/* Styles du bouton de changement de thème */
-body.dark-mode .theme-toggle {
-    color: #fff;
-}
 
-body .theme-toggle {
-    color: #505050;
-}
+
+
 
 /* Styles du menu hamburger */
 header .hamburger span {
