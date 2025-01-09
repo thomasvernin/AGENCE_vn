@@ -1,7 +1,8 @@
 /*themes.css*/
 
 :root {
-    --background-color : white ;  
+    --background-color : white ; 
+    --background-header-color : rgba(255, 255, 255, 0.692) ;  
     --logo-color : white ; 
     --text-color : black ; 
     --text-grey : #7f7f7f ;
@@ -17,7 +18,8 @@
 }
 
 body.dark-mode {
-    --background-color : black ; 
+    --background-color : black ;
+    --background-header-color : rgba(0, 0, 0, 0.692) ; 
     --logo-color : black ; 
     --text-color : white ;
     --text-grey : #6b6b6b ;
@@ -43,15 +45,15 @@ body.dark-mode {
 }
 
 header {
-    background-color: var(--background-color);
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--background-header-color);
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
 }
 
 body.dark-mode header, body.dark-mode footer {
-    background-color: var(--background-color);
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--background-header-color);
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
 }
 
 header nav ul li a {
@@ -63,20 +65,20 @@ body.dark-mode header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: black;
+    color: var(--text-grey-hover);
 }
 
 body.dark-mode header nav ul li a:hover {
-    color: #ffffff;
+    color: var(--text-grey-hover);
 }
 
 /* Styles du pied de page */
 footer {
-    color: #000;
+    color: var(--text-color);
 }
 
 body.dark-mode footer {
-    color: #7f7f7f;
+    color: var(--text-color);
 }
 
 /* Styles du bouton de changement de thème */
@@ -246,6 +248,38 @@ body.dark-mode .theme-toggle .selected-icon {
         box-sizing: border-box;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
