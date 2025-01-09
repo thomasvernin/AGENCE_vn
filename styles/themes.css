@@ -112,9 +112,9 @@ header nav ul li a.button-link2:hover {
 }
 
 body.dark-mode header nav ul li a.button-link2 {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border: 1px solid rgb(46, 46, 46);
+    background-color: var(--btn2-background-color);
+    color: var(--text-btn2-color);
+    border: 1px solid var(--trait-color);
 }
 
 body.dark-mode header nav ul li a.button-link2:hover {
