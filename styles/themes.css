@@ -20,7 +20,7 @@ body.dark-mode {
     --background-color : black ; 
     --logo-color : black ; 
     --text-color : white ;
-    --text-grey : #7f7f7f ;
+    --text-grey : #6b6b6b ;
     --text-grey-hover : rgb(255, 255, 255) ; 
     --themes-toogle : white ;
     --hamberger-spann : #cccccc;
@@ -31,59 +31,35 @@ body.dark-mode {
     --btn2-background-color-hover : rgb(234, 234, 234) ;
 }
 
-
-/* Paramètres globaux */
 body {
-    background-color: white;
-    color: #090909;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: Arial, sans-serif;
 }
 
 body.dark-mode {
-    background-color: #000000;
-    color: #fff;
+    background-color: (--background-color);
+    color: var(--text-color);
 }
 
-/* Arrière-plan de l'en-tête et du pied de page */
-header, footer {
-    background-color: #ffffff7e;
+header {
+    background-color: var(--background-color);
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
 }
 
 body.dark-mode header, body.dark-mode footer {
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: var(--background-color);
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* Styles du logo */
-header .logo {
-    color: #000;
-}
-
-body.dark-mode header .logo {
-    color: #fff;
-}
-
-/* Couleur du texte pour les liens et le bouton de changement de thème */
-header nav ul li a,
-footer .theme-toggle {
-    color: #000000;
-}
-
-body.dark-mode header nav ul li a,
-body.dark-mode footer .theme-toggle {
-    color: #fff;
-}
-
-/* Couleur des liens dans la barre de navigation */
 header nav ul li a {
-    color: #7f7f7f;
+    color: var(--text-grey);
 }
 
 body.dark-mode header nav ul li a {
-    color: #7f7f7f;
+    color: var(--text-grey);
 }
 
 header nav ul li a:hover {
