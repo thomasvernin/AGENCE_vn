@@ -227,6 +227,10 @@ body.dark-mode .theme-toggle .selected-icon {
         padding: 0;
         box-sizing: border-box;
     }
+
+    .bx-sun.selected-icon {
+        color: black;
+    }
 }
 
 
