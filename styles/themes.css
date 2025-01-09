@@ -13,7 +13,7 @@
     --icone-color-grey : #7f7f7f ;
     --trait-color : rgb(220, 220, 220) ;
     --btn1-background-color : white ;
-    --btn1-background-color-hover : rgb(193, 193, 193) ;  
+    --btn1-background-color-hover : rgb(243, 243, 243) ;  
     --btn2-background-color : black ;
     --btn2-background-color-hover : rgb(36, 36, 36) ;
 
@@ -22,7 +22,7 @@
 body.dark-mode {
     --background-color : black ;
     --background-header-color : rgba(0, 0, 0, 0.692) ; 
-    --text-btn1-color : grey ;
+    --text-btn1-color : rgb(214, 214, 214) ;
     --text-btn2-color : black ; 
     --text-color : white ;
     --text-grey : #6b6b6b ;
@@ -131,16 +131,16 @@ header nav ul li a.button-link {
 
 body.dark-mode header nav ul li a.button-link {
     background-color: var(--btn1-background-color);
-    color: #c9c8c8;
     border: 1px solid var(--trait-color);
+    color: var(--text-btn1-color);
 }
 
 header nav ul li a.button-link:hover {
-    background-color: rgb(244, 243, 243); 
+    background-color: var(--btn1-background-color-hover); 
 }
 
 body.dark-mode header nav ul li a.button-link:hover {
-    background-color: #1c1c1c;
+    background-color: var(--btn1-background-color-hover);
 }
 
 body.dark-mode a.button-link:hover {
