@@ -3,7 +3,7 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 body.dark-mode {
@@ -171,30 +171,6 @@ body.dark-mode .theme-toggle .selected-icon {
 }
 
 
-
-@media (max-width: 1024px) {
-    header nav ul {
-        background-color: var(--background-color);
-        border-radius: 8px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body.dark-mode header nav ul {
-        background-color: var(--background-color);
-        border-radius: 8px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .bx-sun.selected-icon {
-        color: black;
-    }
-}
 
 
 
