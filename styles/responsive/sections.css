@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    section {
+        padding: 15px;
+    }
+
+    section h2 {
+        text-align: center; 
+    }
+
+    section p {
+        text-align: left;
+        margin-left: 10px;
+    }
+}

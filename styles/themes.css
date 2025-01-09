@@ -1,42 +1,5 @@
 /*themes.css*/
 
-:root {
-    --background-color : white ; 
-    --background-header-color : rgba(255, 255, 255, 0.692) ;  
-    --text-btn1-color : black ;
-    --text-btn2-color : white ; 
-    --text-color : black ; 
-    --text-grey : #7f7f7f ;
-    --text-grey-hover : black ; 
-    --themes-toogle : #505050 ;
-    --hamberger-spann : #7f7f7f ;
-    --icone-color-grey : #7f7f7f ;
-    --trait-color : rgb(220, 220, 220) ;
-    --btn1-background-color : white ;
-    --btn1-background-color-hover : rgb(243, 243, 243) ;  
-    --btn2-background-color : black ;
-    --btn2-background-color-hover : rgb(36, 36, 36) ;
-
-}
-
-body.dark-mode {
-    --background-color : black ;
-    --background-header-color : rgba(0, 0, 0, 0.692) ; 
-    --text-btn1-color : rgb(214, 214, 214) ;
-    --text-btn2-color : black ; 
-    --text-color : white ;
-    --text-grey : #6b6b6b ;
-    --text-grey-hover : rgb(255, 255, 255) ; 
-    --themes-toogle : white ;
-    --hamberger-spann : #cccccc;
-    --icone-color-grey : #7f7f7f ;
-    --trait-color : rgb(29, 29, 29) ; 
-    --btn1-background-color : rgb(10, 10, 10) ; 
-    --btn1-background-color-hover : #1c1c1c ;
-    --btn2-background-color : rgb(241, 241, 241) ;
-    --btn2-background-color-hover : rgb(234, 234, 234) ;
-}
-
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -232,6 +195,206 @@ body.dark-mode .theme-toggle .selected-icon {
         color: black;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

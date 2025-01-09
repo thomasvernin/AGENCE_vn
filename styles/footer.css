@@ -52,40 +52,7 @@ footer .theme-toggle {
     transition: border 0.3s ease;
 }
 
-@media (max-width: 1024px) {
-    footer .footer-content {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0rem;
-        width: 100%; 
-    }
 
-    footer .theme-toggle {
-        order: 1;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
-
-    footer .footer-content p {
-        order: 2;
-        margin-left: 0;
-        text-align: center;
-        flex: 1;
-        margin-top: 1rem;
-    }
-
-    footer .footer-content {
-        flex-direction: column;
-        align-items: center;
-        width: 100%; 
-    }
-
-    footer .theme-toggle {
-        display: none; 
-    }
-}
 
 
 
