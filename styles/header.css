@@ -17,10 +17,6 @@ header {
     width: calc(100% - 1.1rem);     
 }
 
-
-/*  */
-
-
 header .logo {
     font-size: 0rem;
     margin-left: 4rem;
@@ -79,7 +75,7 @@ header nav ul li a.button-link2 {
 }
 
 header nav ul li a.button-link2:hover {
-    opacity: 0.8; 
+    
 }
 
 header .hamburger {

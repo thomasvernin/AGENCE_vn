@@ -9,11 +9,10 @@
     --themes-toogle : #505050 ;
     --hamberger-spann : #7f7f7f ;
     --trait-color : rgb(220, 220, 220) ;
-
     --btn1-background-color : white ;
-    --btn1-background-color-hover : white ;  
-    
+    --btn1-background-color-hover : rgb(193, 193, 193) ;  
     --btn2-background-color : black ;
+    --btn2-background-color-hover : rgb(36, 36, 36) ;
 
 }
 
@@ -25,17 +24,12 @@ body.dark-mode {
     --text-grey-hover : rgb(255, 255, 255) ; 
     --themes-toogle : white ;
     --hamberger-spann : #cccccc;
-    --trait-color : rgb(15, 15, 15) ; 
-
-    --btn1-background-color : black ; 
+    --trait-color : rgb(29, 29, 29) ; 
+    --btn1-background-color : rgb(10, 10, 10) ; 
     --btn1-background-color-hover : #1c1c1c ;
-
     --btn2-background-color : rgb(241, 241, 241) ;
-    --btn2-background-color-hover : rgb(207, 207, 207) ;
+    --btn2-background-color-hover : rgb(234, 234, 234) ;
 }
-
-
-
 
 
 /* Paramètres globaux */
@@ -148,10 +142,18 @@ header nav ul li a.button-link2 {
     color: #ececec;
 }
 
+header nav ul li a.button-link2:hover {
+    background-color: var(--btn2-background-color-hover);
+}
+
 body.dark-mode header nav ul li a.button-link2 {
     background-color: rgb(255, 255, 255);
     color: black;
     border: 1px solid rgb(46, 46, 46);
+}
+
+body.dark-mode header nav ul li a.button-link2:hover {
+    background-color: var(--btn2-background-color-hover);
 }
 
 
@@ -165,13 +167,13 @@ header nav ul li a.button-link {
 }
 
 body.dark-mode header nav ul li a.button-link {
-    background-color: #000000;
+    background-color: var(--btn1-background-color);
     color: #c9c8c8;
     border: 1px solid var(--trait-color);
 }
 
 header nav ul li a.button-link:hover {
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(244, 243, 243); 
 }
 
 body.dark-mode header nav ul li a.button-link:hover {
