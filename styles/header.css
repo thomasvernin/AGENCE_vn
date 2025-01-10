@@ -219,7 +219,7 @@ header .theme-toggle {
         width: 35px;
         height: 35px;
         cursor: pointer;
-        border: 1px solid #333;
+        border: 1px solid var(--trait-color);
         border-radius: 50%;
         background-color: transparent;
     }
