@@ -10,7 +10,7 @@ section h1, section h2 {
 }
 
 h1 {
-    font-size: 50px; 
+    font-size: 40px; 
     font-weight: 700;
 }
 
@@ -21,7 +21,7 @@ h2 {
 
 section h1 + p {
     text-align: center; 
-    font-size: 30px; 
+    font-size: 20px; 
     font-weight: 400;
     line-height: 1.5;
     color: var(--text-grey); 
