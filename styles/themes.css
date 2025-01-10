@@ -1,19 +1,5 @@
 /*themes.css*/
 
-
-body.dark-mode header, body.dark-mode footer {
-    background-color: var(--background-header-color);
-    backdrop-filter: blur(20px); 
-    -webkit-backdrop-filter: blur(20px);
-}
-
-
-
-
-
-
-
-
 /* Icones thèmes */
 
 .icon-container {

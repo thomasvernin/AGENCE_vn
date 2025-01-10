@@ -11,6 +11,12 @@ footer {
     color: var(--text-color);
 }
 
+body.dark-mode footer {
+    background-color: var(--background-header-color);
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
+}
+
 footer .footer-content {
     display: flex;
     justify-content: space-between;

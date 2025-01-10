@@ -31,4 +31,8 @@
     footer .theme-toggle {
         display: none; 
     }
+
+    .bx-sun.selected-icon {
+        color: black;
+    }
 }
