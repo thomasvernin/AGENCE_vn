@@ -8,6 +8,7 @@ footer {
     margin-top: auto;
     font-family: "Geist", serif;
     background-color: #fff; 
+    color: var(--text-color);
 }
 
 footer .footer-content {

@@ -1,21 +1,5 @@
 /*themes.css*/
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: "Geist", serif;
-}
-
-body.dark-mode {
-    background-color: (--background-color);
-    color: var(--text-color);
-}
-
-header {
-    background-color: var(--background-header-color);
-    backdrop-filter: blur(20px); 
-    -webkit-backdrop-filter: blur(20px);
-}
 
 body.dark-mode header, body.dark-mode footer {
     background-color: var(--background-header-color);
@@ -23,92 +7,9 @@ body.dark-mode header, body.dark-mode footer {
     -webkit-backdrop-filter: blur(20px);
 }
 
-header nav ul li a {
-    color: var(--text-grey);
-}
 
-body.dark-mode header nav ul li a {
-    color: var(--text-grey);
-}
 
-header nav ul li a:hover {
-    color: var(--text-grey-hover);
-}
 
-body.dark-mode header nav ul li a:hover {
-    color: var(--text-grey-hover);
-}
-
-footer {
-    color: var(--text-color);
-}
-
-body.dark-mode footer {
-    color: var(--text-color);
-}
-
-header .hamburger span {
-    background-color: var(--text-grey);
-}
-
-body.dark-mode header .hamburger span {
-    background-color: var(--text-grey);
-}
-
-body.dark-mode header {
-    border-bottom: 1px solid var(--trait-color);
-} 
-
-header .hamburger { 
-    border-color: var(--trait-color);
-}
-
-body.dark-mode header .hamburger { 
-    border-color: var(--trait-color);
-}
-
-header nav ul li a.button-link2 {
-    background-color: var(--btn2-background-color);
-    color: var(--text-btn2-color);
-}
-
-header nav ul li a.button-link2:hover {
-    background-color: var(--btn2-background-color-hover);
-}
-
-body.dark-mode header nav ul li a.button-link2 {
-    background-color: var(--btn2-background-color);
-    color: var(--text-btn2-color);
-    border: 1px solid var(--trait-color);
-}
-
-body.dark-mode header nav ul li a.button-link2:hover {
-    background-color: var(--btn2-background-color-hover);
-}
-
-header nav ul li a.button-link {
-    background-color: var(--btn1-background-color);
-    color: var(--text-btn1-color);
-    border: 1px solid var(--trait-color);
-}
-
-body.dark-mode header nav ul li a.button-link {
-    background-color: var(--btn1-background-color);
-    border: 1px solid var(--trait-color);
-    color: var(--text-btn1-color);
-}
-
-header nav ul li a.button-link:hover {
-    background-color: var(--btn1-background-color-hover); 
-}
-
-body.dark-mode header nav ul li a.button-link:hover {
-    background-color: var(--btn1-background-color-hover);
-}
-
-body.dark-mode a.button-link:hover {
-    opacity: 0.8;
-}
 
 
 

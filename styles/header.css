@@ -14,9 +14,12 @@ header {
     z-index: 1000;
     font-family: "Geist", serif;
     font-weight: 300;
-    border-bottom: 1px solid rgb(220, 220, 220) ; 
-    width: calc(100% - 1.1rem);     
-}
+    border-bottom: 1px solid var(--trait-color) ; 
+    width: calc(100% - 1.1rem); 
+    background-color: var(--background-header-color);
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);    
+} 
 
 header .logo {
     font-size: 0rem;
@@ -53,6 +56,11 @@ header nav ul li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+    color: var(--text-grey);
+}
+
+header nav ul li a:hover {
+    color: var(--text-grey-hover);
 }
 
 header nav ul .centered {
@@ -66,6 +74,21 @@ header nav ul li a.button-link {
     transition: background-color 0.3s ease;
     font-size: 14px;
     font-weight: 600;
+    background-color: var(--btn1-background-color);
+    color: var(--text-btn1-color);
+    border: 1px solid var(--trait-color);
+}
+
+header nav ul li a.button-link:hover {
+    background-color: var(--btn1-background-color-hover); 
+}
+
+body.dark-mode header nav ul li a.button-link:hover {
+    background-color: var(--btn1-background-color-hover);
+}
+
+body.dark-mode a.button-link:hover {
+    opacity: 0.8;
 }
 
 header nav ul li a.button-link2 {
@@ -76,6 +99,12 @@ header nav ul li a.button-link2 {
     font-size: 14px;
     margin-right: -1rem;
     font-weight: 600;
+    background-color: var(--btn2-background-color);
+    color: var(--text-btn2-color);
+}
+
+header nav ul li a.button-link2:hover {
+    opacity : 0.9 ;
 }
 
 header .hamburger {
@@ -84,18 +113,23 @@ header .hamburger {
     cursor: pointer;
     border: 1px solid; 
     border-radius: 50%; 
-    border-color: rgb(59, 59, 59);
     background-color: transparent;
     width: 35px; 
     height: 35px;
     justify-content: center; 
     align-items: center;
+    border-color: var(--trait-color);
 }
 
 header .hamburger span {
     height: 2px;
     width: 20px; 
-    margin: 3px 0; 
+    margin: 3px 0;
+    background-color: var(--text-grey); 
+}
+
+body.dark-mode header .hamburger span {
+    background-color: var(--text-grey);
 }
 
 header .theme-toggle {
@@ -106,30 +140,6 @@ header .theme-toggle {
     margin-top: 1rem; 
     align-self: center; 
 }
-
-
-/*
-@media (max-width: 2100px) {
-    header nav ul .centered {
-        justify-content: center;
-      margin-right: 50em;
-    } 
-}
-
-@media (max-width: 1480px) {
-    header nav ul .centered {
-        justify-content: center;
-      margin-right: 30em;
-    } 
-}
-
-@media (max-width: 1159px) {
-    header nav ul .centered {
-        justify-content: center;
-      margin-right: 10em;
-    } 
-} */
-
 
 @media (min-width: 1025px) {
     header .theme-toggle {
