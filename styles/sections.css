@@ -1,15 +1,19 @@
 /* sections.css */
 section {
-    margin-bottom: 40px;
-    padding: 70px;
+    margin-bottom: 0px;
+    padding: 20px;
 }
 
 section h2 {
     text-align: center;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 section p {
-    margin-left: 170px;
+    margin-left: 150px;
     font-size: 15px;
+    font-weight: 400;
+    color: var(--text-grey);
 }
 

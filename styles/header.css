@@ -12,7 +12,7 @@ header {
     right: 0;
     width: 100% ;
     z-index: 1000;
-    font-family: 'Inter', sans-serif;
+    font-family: "Geist", serif;
     font-weight: 300;
     border-bottom: 1px solid rgb(220, 220, 220) ; 
     width: calc(100% - 1.1rem);     
@@ -52,7 +52,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 header nav ul .centered {
@@ -65,7 +65,7 @@ header nav ul li a.button-link {
     text-align: center;
     transition: background-color 0.3s ease;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 header nav ul li a.button-link2 {
@@ -75,7 +75,7 @@ header nav ul li a.button-link2 {
     transition: background-color 0.3s ease;
     font-size: 14px;
     margin-right: -1rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 header .hamburger {

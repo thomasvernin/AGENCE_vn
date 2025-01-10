@@ -6,7 +6,7 @@ footer {
     z-index: 1; 
     box-sizing: border-box; 
     margin-top: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: "Geist", serif;
     background-color: #fff; 
 }
 
@@ -20,7 +20,7 @@ footer .footer-content {
 }
 
 footer .footer-content p {
-    margin-left: 15em;  
+    margin-left: 170px;  
 }
 
 footer .theme-toggle {

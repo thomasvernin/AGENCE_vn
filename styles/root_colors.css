@@ -4,7 +4,7 @@
     --text-btn1-color : black ;
     --text-btn2-color : white ; 
     --text-color : black ; 
-    --text-grey : #7f7f7f ;
+    --text-grey : #646464 ;
     --text-grey-hover : black ; 
     --themes-toogle : #505050 ;
     --hamberger-spann : #7f7f7f ;
@@ -23,7 +23,7 @@ body.dark-mode {
     --text-btn1-color : rgb(214, 214, 214) ;
     --text-btn2-color : black ; 
     --text-color : white ;
-    --text-grey : #6b6b6b ;
+    --text-grey : #9b9b9b ;
     --text-grey-hover : rgb(255, 255, 255) ; 
     --themes-toogle : white ;
     --hamberger-spann : #cccccc;
