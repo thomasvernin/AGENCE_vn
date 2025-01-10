@@ -52,6 +52,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     font-size: 14px;
+    font-weight: 300;
 }
 
 header nav ul .centered {
@@ -64,7 +65,7 @@ header nav ul li a.button-link {
     text-align: center;
     transition: background-color 0.3s ease;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 header nav ul li a.button-link2 {
@@ -74,7 +75,7 @@ header nav ul li a.button-link2 {
     transition: background-color 0.3s ease;
     font-size: 14px;
     margin-right: -1rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 header .hamburger {
