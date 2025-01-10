@@ -48,11 +48,11 @@ body.dark-mode footer {
 }
 
 header .hamburger span {
-    background-color: var(--trait-color);
+    background-color: var(--text-grey);
 }
 
 body.dark-mode header .hamburger span {
-    background-color: var(--trait-color);
+    background-color: var(--text-grey);
 }
 
 body.dark-mode header {
