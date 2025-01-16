@@ -177,7 +177,7 @@ header .theme-toggle {
         padding: 1rem 0;
         background-color: var(--background-header-color);
         backdrop-filter: blur(30px); 
-        -webkit-backdrop-filter: blur(30px); 
+        -webkit-backdrop-filter: blur(10px); 
     }
 
     header .logo {
