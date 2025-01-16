@@ -1,55 +1,56 @@
 footer {
     padding: 1rem 0;
-    text-align: center;
+    text-align: left;
     position: relative;
-    width: 100vw; 
-    z-index: 1; 
-    box-sizing: border-box; 
+    width: 100vw;
+    z-index: 1;
+    box-sizing: border-box;
     margin-top: auto;
     font-family: "Geist", serif;
-    background-color: #fff; 
+    background-color: #fff;
     color: var(--text-color);
-}
-
-body.dark-mode footer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  body.dark-mode footer {
     background-color: var(--background-header-color);
-    backdrop-filter: blur(20px); 
-    -webkit-backdrop-filter: blur(20px);
-}
-
-footer .footer-content {
+    /* Les propriétés backdrop-filter ont été supprimées */
+  }
+  
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
-}
-
-footer .footer-content p {
-    margin-left: 170px; 
-}
-
-footer .theme-toggle {
+  }
+  
+  footer .footer-content p {
+    margin-left: 0;
+  }
+  
+  footer .theme-toggle {
     background: none;
     border: none;
     font-size: 4rem;
     cursor: pointer;
-    margin-right: 10rem;
-}
-
-.theme-toggle span {
+    margin-right: 0;
+  }
+  
+  .theme-toggle span {
     cursor: pointer;
     margin: 0;
     font-size: 15px;
-}
-
-.selected-icon {
-    border-radius: 50%; 
-    padding: 2px; 
-}
-
-.icon-container {
+  }
+  
+  .selected-icon {
+    border-radius: 50%;
+    padding: 2px;
+  }
+  
+  .icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +58,40 @@ footer .theme-toggle {
     padding: 0px;
     border-radius: 20px;
     transition: border 0.3s ease;
-}
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
 
 
 
