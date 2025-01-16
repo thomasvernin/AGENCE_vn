@@ -15,7 +15,6 @@ footer {
   
   body.dark-mode footer {
     background-color: var(--background-header-color);
-    /* Les propriétés backdrop-filter ont été supprimées */
   }
   
   footer .footer-content {
@@ -28,7 +27,7 @@ footer {
   }
   
   footer .footer-content p {
-    margin-left: 0;
+    margin-left: 10px;
   }
   
   footer .theme-toggle {
