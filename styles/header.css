@@ -272,8 +272,10 @@ header .theme-toggle {
 
     header .theme-toggle { 
         margin-top: -4.2rem; 
-        right: 1rem; 
+        right: 0.8rem; 
         order: 3; 
+        position: absolute; 
+        top : 26.6rem;
     } 
     
     .hide-theme {
