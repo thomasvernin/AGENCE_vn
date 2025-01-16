@@ -27,7 +27,7 @@ footer .footer-content {
 }
 
 footer .footer-content p {
-    margin-left: 170px;  
+    margin-left: 170px; 
 }
 
 footer .theme-toggle {
@@ -35,7 +35,7 @@ footer .theme-toggle {
     border: none;
     font-size: 4rem;
     cursor: pointer;
-    margin-right: 15rem;
+    margin-right: 10rem;
 }
 
 .theme-toggle span {

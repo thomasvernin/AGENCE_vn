@@ -17,8 +17,8 @@ header {
     border-bottom: 1px solid var(--trait-color) ; 
     width: calc(100% - 1.1rem); 
     background-color: var(--background-header-color);
-    backdrop-filter: blur(20px); 
-    -webkit-backdrop-filter: blur(20px);    
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(0px);   
 } 
 
 header .logo {
@@ -49,15 +49,34 @@ header nav ul {
 } 
 
 header nav ul li {
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
 header nav ul li a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    color: var(--text-grey);
+    color: var(--text-grey); 
 }
+
+/*
+header nav ul {
+    background-color: var(--);
+    border-radius: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.dark-mode header nav ul {
+    background-color: var(--);
+    border-radius: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 header nav ul li a:hover {
     color: var(--text-grey-hover);
@@ -176,9 +195,9 @@ header .theme-toggle {
         padding: 1rem;
         z-index: 10;
         height: 100vh;
-        background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        background-color: var(--background-color);
+        /* background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        background-color: var(--background-color); 
         border-radius: 8px;
         width: 100%;
         margin: 0;
@@ -229,7 +248,7 @@ header .theme-toggle {
         display: block;
         height: 2px;
         width: 20px;
-        background-color: #333;
+        /* background-color: #333; */
         margin: 3px 0;
         transition: transform 0.3s ease, opacity 0.3s ease;
     }
