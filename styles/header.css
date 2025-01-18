@@ -50,6 +50,7 @@ header nav ul {
 
 header nav ul li {
     margin-left: 25px; 
+    margin-top: 0.3rem; 
 }
 
 header nav ul li a {
@@ -57,7 +58,7 @@ header nav ul li a {
     font-size: 14px;
     font-weight: 400;
     color: var(--text-grey); 
-    margin-left: 0px; 
+    margin-left: 1px; 
 }
 
 /*
@@ -84,7 +85,7 @@ header nav ul li a:hover {
 }
 
 header nav ul .centered {
-    margin-right: 5rem;
+    margin-right: 2rem;
 } 
 
 header nav ul li a.button-link {
@@ -157,13 +158,13 @@ header .theme-toggle {
     border: none;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 1rem; 
+    margin-top: 0rem; 
     align-self: center; 
 }
 
 @media (min-width: 1025px) {
     header .theme-toggle {
-        display: none; 
+        display: ; 
     }
 
     .hide-theme {
